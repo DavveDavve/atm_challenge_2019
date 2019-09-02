@@ -7,3 +7,5 @@ I want to work in a test driven way and unit test my code
 As a user
 In order to make withdrawal
 The ATM need to have funds
+
+As a user
