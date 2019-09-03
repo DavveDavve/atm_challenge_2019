@@ -9,4 +9,4 @@ Adds checklist. extracts the check of account balance to seperate method and ext
 
 D -> A
 C3)
-Adds additions to user story. Adds private method for withdraw amount on account and adds sets subject.funds to 50. Modifies withdraw method to accept a pin code. Adds pin code and method to accept the pin code or reject wrong pin code. Adds expiration date check to card.
+Adds additions to user story. Adds private method for withdraw amount on account and adds sets subject.funds to 50. Modifies withdraw method to accept a pin code. Adds pin code and method to accept the pin code or reject wrong pin code. Adds expiration date check to card. Adds a method for account status, and a test for when the account is disabled.
