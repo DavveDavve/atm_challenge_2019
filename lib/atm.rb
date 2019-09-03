@@ -46,7 +46,6 @@ class ATM
     end
     
     def account_disabled?(account_status)
-        #account_status = {active: true, disabled: false}
         account_status != :active 
     end
 end
