@@ -22,3 +22,7 @@ Adds user story for account class. Created account.rb and account_spec.rb and ad
 A -> D
 C6)
 Adds User story for person, Created new person_spec file, changed from class to instance method for disabling subject Account, Created person class definitions and class tests,
+
+D -> A
+C7)
+Debugged and fixed methods + test errors in account, atm, person, and person_spec.

@@ -1,3 +1,4 @@
+require 'date'
 class ATM
     attr_accessor :funds
 
@@ -27,6 +28,7 @@ class ATM
     end
 
     private
+    
     def insufficient_funds_in_account?(amount, account)
         amount > account.balance
     end

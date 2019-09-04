@@ -1,15 +1,16 @@
-require './lib/person'
-require './lib/atm'
+require './lib/person.rb'
+require './lib/atm.rb'
+require 'date'
 
 describe Person do
     subject {described_class.new(name: 'Bob')}
 
     it 'is expected to have a :name on initialize' do
-        expect(subject.new).not_to be nil
+        expect(subject.name).not_to be nil
     end
 
     it 'is expected to raise an error if no name is set' do
-        expect{decsribed_class.new}.to raise_error 'A name is required'
+        expect{described_class.new}.to raise_error 'A name is required'
     end
 
     it 'is expected to have a :cash attribute with the value of 0 on initialize' do
@@ -27,16 +28,15 @@ describe Person do
     end
 end
 
-    it 'with himself as an owner' do
-        expect(subject.account.owner).to be subject
-    end
+
 
     describe 'can manage funds if an account been created' do
         let(:atm) {ATM.new}
         before{subject.create_account}
         it 'can deposit funds' do
             expect(subject.deposit(100)).to be_truthy
-    end
+        end
+        
         it 'funds are added to the account balance - deducted from cash' do
             subject.cash = 100
             subject.deposit(100)

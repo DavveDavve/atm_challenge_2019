@@ -1,4 +1,6 @@
-require './lib/account'
+require './lib/account.rb'
+require './lib/atm'
+require 'date'
 
 class Person
     attr_accessor :name, :cash, :account
@@ -18,7 +20,7 @@ class Person
     end
 
     def withdraw(args = {})
-    @account == nil ? missing_account : withdraw_funds(args)
+        @account == nil ? missing_account : withdraw_funds(args)
     end
 
     private
@@ -29,12 +31,12 @@ class Person
     end
 
     def withdraw_funds(args)
-        args[:atm] == nil ? missing_atm = args[:atm]
-        account = args[:account]
+        args[:atm].nil? ? missing_atm : atm = args[:atm]
+        account = @account
         amount = args[:amount]
         pin = args[:pin]
         response = atm.withdraw(amount, pin, account)
-        response[:status] == true ? increase_cash(response) : response
+        response[:status] ? increase_cash(response) : response
     end
 
     def increase_cash(response)
