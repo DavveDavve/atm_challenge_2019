@@ -49,3 +49,23 @@ I want to allow withdrawals from only active accounts.
 As a bank Customer
 In order to withdraw funds in even amounts
 I want to receive funds in 5, 10, and 20$ bills
+
+As a Customer
+In order to manage my funds
+I need to have a personal account
+
+As an ATM operator
+In order to keep track of our customers
+We want to assign each account to a separate person.
+
+As a Person
+To be able to use banking services to manage my funds
+I would like to be able to create a bank account.
+
+As a person with a bank account
+In order to be able to put my funds in the account
+I would like to be able to make a deposit.
+
+As a person without a bank account
+In order to prevent me from using the wrong bank account
+I should not be able to make a deposit.

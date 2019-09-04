@@ -14,3 +14,11 @@ Adds additions to user story. Adds private method for withdraw amount on account
 A -> D
 C4)
 Adds user story for banker, Adds bills to expected output in allow withdraw test, adds add_bills definition with conditional while loop,
+
+D -> A
+C5)
+Adds user story for account class. Created account.rb and account_spec.rb and adds new account class. Adds owner, expiration date, and account status tests and definitions for account class.
+
+A -> D
+C6)
+Adds User story for person, Created new person_spec file, changed from class to instance method for disabling subject Account, Created person class definitions and class tests,
