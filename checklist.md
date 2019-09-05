@@ -29,4 +29,5 @@ Debugged and fixed methods + test errors in account, atm, person, and person_spe
 
 A -> D
 C8)
-Formating and adding data to README Documentation, WIP
+Formating and adding data to README Documentation, WIP 
++9) Updates README with proper documentation

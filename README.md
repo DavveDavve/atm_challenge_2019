@@ -1,10 +1,11 @@
-# atm_challenge_2019
+# Atm_challenge_2019
 This is a simulated Atm machine that creates a user and account that can acces, withdraw, and deposit funds.
 
-##Getting Started
+# Getting Started
 These instructions get you a copy of the project up and running on your local machine for development and testing purposes. See deploymnent for notes on how to deploy the project on a live system.
 
-#Prerequisites
+## Prerequisites
+
 Things that you need, to install the software, and how to install them.
 First install Bundler in terminal.
 
@@ -28,8 +29,13 @@ Use bundler to install rspec in terminal.
 ```
 bundle install
 ```
+       
 
-Initiate in terminal
+## Installing
+
+Pull down from repository and open in IRB or in your code editor.
+
+Initiate in terminal.
 ```
 rspec --init
 ```
@@ -40,16 +46,19 @@ Modify created Rspec file in code editor.
 --format documentation
 --color
 ```
-        
 
-#Installing
+# Running the tests
+
+To run the test use use the Rspec command 
+```
+rspec spec
+```
+## Breakdown into end to end tests
+
+Refer to user stories below.
 
 
-#The Code
-
-
-
-### User Stories
+# User Stories
 
 As a programmer
 in order to produce good quality code
@@ -120,3 +129,9 @@ I would like to be able to make a deposit.
 As a person without a bank account
 In order to prevent me from using the wrong bank account
 I should not be able to make a deposit.
+
+# Authors
+Alex Saxena and David Izosimov
+
+# Acknowledgements
+- Tip fedora to CraftAcademy's code
