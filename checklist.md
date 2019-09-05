@@ -26,3 +26,7 @@ Adds User story for person, Created new person_spec file, changed from class to 
 D -> A
 C7)
 Debugged and fixed methods + test errors in account, atm, person, and person_spec.
+
+A -> D
+C8)
+Formating and adding data to README Documentation, WIP

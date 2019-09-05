@@ -1,4 +1,55 @@
 # atm_challenge_2019
+This is a simulated Atm machine that creates a user and account that can acces, withdraw, and deposit funds.
+
+##Getting Started
+These instructions get you a copy of the project up and running on your local machine for development and testing purposes. See deploymnent for notes on how to deploy the project on a live system.
+
+#Prerequisites
+Things that you need, to install the software, and how to install them.
+First install Bundler in terminal.
+
+```
+gem install bundler
+```
+Move into desired directory in terminal.
+```
+cd <desired directory>
+```
+Then create a Gemfile in terminal.
+```
+touch Gemfile
+```
+Move into Gemfile and add rspec dependency in code editor.
+```
+source 'https://rubygems.org'
+gem 'rspec'
+```
+Use bundler to install rspec in terminal.
+```
+bundle install
+```
+
+Initiate in terminal
+```
+rspec --init
+```
+
+Modify created Rspec file in code editor.
+```
+--require spec_helper
+--format documentation
+--color
+```
+        
+
+#Installing
+
+
+#The Code
+
+
+
+### User Stories
 
 As a programmer
 in order to produce good quality code
